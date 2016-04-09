@@ -779,7 +779,7 @@ public class BuiltinsDb extends Db {
 
    // Correlate(double, double)
    db.addBuiltin(AggregateFunction.createBuiltin(db, "corr",
-        Lists.<Type>newArrayList(Type.DOUBLE, Type.DOUBLE), Type.STRING, Type.STRING,
+        Lists.<Type>newArrayList(Type.DOUBLE, Type.DOUBLE), Type.DOUBLE, Type.STRING,
         prefix +
             "8CorrInitEPN10impala_udf15FunctionContextEPNS1_9StringValE",
         prefix +
